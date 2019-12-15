@@ -1,0 +1,24 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "bibliotec do curso js com tdd na pratica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misaku/js-tdd-course.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Michel dos Santos Kuguio <michel.kuguio@gmail.com> (https://www.linkedin.com/in/michelkuguio/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/misaku/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/misaku/js-tdd-course#readme"
+}
