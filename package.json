@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/misaku/js-tdd-course/issues"
   },
-  "homepage": "https://github.com/misaku/js-tdd-course#readme"
+  "homepage": "https://github.com/misaku/js-tdd-course#readme",
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  }
 }
