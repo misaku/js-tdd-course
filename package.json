@@ -4,7 +4,14 @@
   "description": "bibliotec do curso js com tdd na pratica",
   "main": "index.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint"
+    }
   },
   "repository": {
     "type": "git",
@@ -22,6 +29,9 @@
   },
   "homepage": "https://github.com/misaku/js-tdd-course#readme",
   "devDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "husky": "^3.1.0"
   }
 }
